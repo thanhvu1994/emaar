@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Yii template
+assets/*
+cache/*
+upload/*
+doc/*
+.idea/*
+nbproject/*
+protected/runtime/*
+/protected/config/config_host
+protected/config/bk_test/*
+protected/views/layouts/micrositeEndUserBuy/end_user_buy_backend - Copy.php
+protected/models/modelEndUserBuy/bk_test/*
+protected/controllers/bk_test/*
+/shipingDebug

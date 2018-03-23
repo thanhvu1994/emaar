@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+Footer None Styling
+--------------------------------------------------------------*/
+
+.site-footer-none {
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.festive-nocorners .site-footer-none,
+.festive-no-footer-space .site-footer-none {
+    border-radius: 0;
+}
+
+@media only screen and (max-width: 782px) {
+    
+    .site-footer-bottom-bar-left {
+    	width: 100%;
+    	float: none;
+    	text-align: center;
+    	padding: 4px 0 10px;
+    }
+    .site-footer-bottom-bar-right {
+    	width: 100%;
+    	float: none;
+    	text-align: center;
+    	padding: 0 0 5px;
+    }
+    .site-footer-bottom-bar-right .social-pinterest.nolink {
+    	margin: 0;
+    }
+    .site-footer-bottom-bar-right .social-pinterest span {
+    	display: none;
+    }
+    
+}

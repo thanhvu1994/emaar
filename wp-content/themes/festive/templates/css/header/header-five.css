@@ -1,0 +1,233 @@
+/*--------------------------------------------------------------
+-- Header - 
+--------------------------------------------------------------*/
+.header-top-bar-left {
+    padding: 2px 0 0;
+}
+.header-top-bar-right {
+    padding: 7px 0 0;
+}
+.header-top-bar-right span {
+    margin: 0 0 0 10px;
+}
+.header-bar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    color: #1d1d1d;
+}
+.site-branding {
+	float: left;
+	padding: 20px 0 30px;
+}
+.site-branding a,
+.site-branding a img {
+    display: block;
+}
+.site-header-main {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+    margin: -28px 0 0;
+    font-size: 13px;
+    color: #1d1d1d;
+}
+.site-header-main .header-top-bar-right-no {
+    display: inline-block;
+    margin: 15px 8px 0 0;
+    float: left;
+}
+.main-navigation li {
+    float: none;
+    display: inline-block;
+}
+.site-header-nav-center .main-navigation {
+    text-align: center;
+}
+.site-header-nav-center .main-navigation li {
+    margin: 0 4px 0 4px;
+}
+.main-navigation {
+    background-color: #157299;
+}
+.main-navigation .site-container {
+    box-shadow: 0 -27px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.main-navigation a {
+    color: #FFF;
+    padding: 18px 22px 18px;
+}
+.main-navigation ul ul {
+    top: 50px;
+}
+
+.site-title {
+	margin: 0;
+	padding: 0;
+	font-size: 57px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.site-title a {
+	font-weight: inherit;
+}
+.site-description {
+	font-size: 12px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	color: inherit;
+}
+
+.header-cart {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 5px 0 5px 10px;
+    color: inherit;
+}
+a.header-cart-contents {
+    color: inherit;
+}
+.header-cart i.fa {
+    position: relative;
+    top: -1px;
+    font-size: 12px;
+}
+.site-header-nocart .main-navigation ul > li:last-child a {
+    padding: 22px 0 44px 14px;
+}
+
+.header-social-icon {
+    float: left;
+    margin: 0 0 0 8px;
+    font-size: 24px;
+}
+.search-button {
+    padding: 12px 0 10px 10px;
+    margin: -1px 0 0 0;
+}
+.search-button i.fa {
+    font-size: 24px;
+    color: inherit;
+}
+body.show-site-search .search-block {
+    bottom: -48px;
+}
+
+/* -------- Header Right Aligned -------- */
+
+.site-header-align-right .site-branding {
+	float: right;
+	text-align: right;
+}
+.site-header-align-right .site-header-main {
+	right: auto;
+	left: 0;
+}
+.site-header-align-right .header-cart {
+    
+}
+
+@media only screen and (max-width: 980px) {
+    
+    .header-menu-button {
+        padding: 14px 0 18px;
+    }
+    
+    .main-navigation li {
+        display: block;
+        float: none;
+    }
+    
+}
+
+@media only screen and (max-width: 782px) {
+    
+    .header-top-bar {
+        font-size: 12px;
+    }
+    .header-top-bar-left {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 1px 0 0;
+    }
+    .header-top-bar-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0 0 5px;
+    }
+    .site-header-main .header-top-bar-right-no {
+        margin: 0;
+        float: none;
+    }
+    .header-bar > .site-container {
+        padding: 0;
+    }
+    .site-branding {
+        float: none !important;
+        width: 100%;
+        text-align: center !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        padding: 10px 0 20px !important;
+    }
+    .site-title {
+        font-size: 48px !important;
+    }
+    .site-description {
+        font-size: 11px !important;
+    }
+    .site-header-main {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        margin: 0;
+        padding: 4px 0 2px;
+        text-align: center;
+    }
+    a.header-cart-contents {
+        padding: 0 !important;
+    }
+    .header-social-icon {
+        float: none;
+    }
+    .search-button {
+        margin: 0;
+        float: none;
+        padding: 5px;
+        vertical-align: middle;
+    }
+    .search-block {
+        left: 0;
+        bottom: 0 !important;
+        width: auto;
+        position: relative;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset;
+        border-radius: 0;
+        display: none;
+    }
+    body.show-site-search .search-block {
+        display: block;
+    }
+    
+    .main-navigation {
+        float: none;
+    }
+    
+}
+
+@media only screen and (max-width: 560px) {
+    
+    .menu-header-menu-container {
+        display: block;
+        text-align: center;
+    }
+    .header-top-bar-right-ad,
+    .header-top-bar-right-no {
+        display: inline-block;
+    }
+    
+}

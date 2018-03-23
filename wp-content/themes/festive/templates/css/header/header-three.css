@@ -1,0 +1,231 @@
+/*--------------------------------------------------------------
+-- Header - 
+--------------------------------------------------------------*/
+.header-top-bar-left {
+    padding: 2px 0 0;
+}
+.header-top-bar-right {
+    padding: 3px 0 0;
+}
+.site-branding {
+    float: left;
+    padding: 20px 0 30px;
+}
+.site-branding a,
+.site-branding a img {
+    display: block;
+}
+.site-header-main {
+    float: right;
+    z-index: 10;
+    padding: 27px 0 0;
+}
+.header-v-align .site-header-main {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+    margin: -52px 0 0;
+    float: none;
+    padding: 9px 0 0;
+}
+.header-cart {
+    float: right;
+}
+.header-cart i.fa {
+    position: relative;
+    top: -1px;
+    font-size: 12px;
+}
+.main-navigation {
+    float: right;
+    color: #3C3C3C;
+}
+
+.site-title {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.site-title a {
+    font-weight: inherit;
+}
+.site-description {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.header-meta {
+    text-align: right;
+    font-size: 13px;
+}
+.header-meta span {
+    margin: 0 0 0 10px;
+}
+
+a.header-cart-contents {
+    padding: 23px 0 32px 22px;
+}
+.main-navigation li {
+    margin: 0;
+}
+.main-navigation a {
+    padding: 26px 22px 32px;
+}
+.main-navigation ul ul {
+    top: 72px;
+}
+.site-header-nocart .main-navigation ul > li:last-child a {
+    padding: 24px 0 25px 14px;
+}
+.header-menu-nav ul li:last-child {
+    box-shadow: none;
+}
+.header-menu-nav ul li:last-child a {
+    padding: 0 0 0 10px;
+}
+
+.search-button {
+    padding: 1px 0 1px 10px;
+}
+body.show-site-search .search-block {
+    bottom: -48px;
+}
+
+/* -------- Header Right Aligned -------- */
+
+.site-header-align-right .site-branding {
+    float: right;
+    text-align: right;
+}
+.site-header-align-right .site-header-main {
+    float: left;
+}
+.site-header-align-right .site-header-main .header-meta {
+    text-align: left;
+}
+.site-header-align-right .site-header-main .header-meta span {
+    margin: 0 10px 0 0;
+}
+.site-header-align-right .search-button {
+    float: none;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .header-menu-button {
+        padding: 23px 20px 25px 100px;
+    }
+    .site-header-align-right .main-navigation,
+    .site-header-align-right .header-cart {
+        float: left;
+    }
+    .site-header-align-right .header-menu-button {
+        padding: 20px 50px 25px 40px;
+    }
+    .site-header-align-right a.header-cart-contents {
+        padding: 23px 22px 32px 0;
+    }
+
+}
+
+@media only screen and (max-width: 782px) {
+    
+    .header-top-bar {
+        font-size: 12px;
+    }
+    .header-top-bar-left {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 2px 0 0;
+        margin: 0 0 -6px;
+    }
+    .header-social-icon {
+        padding: 3px 5px;
+    }
+    .header-top-bar-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .site-header-align-right .header-meta {
+        text-align: center !important;
+    }
+    .site-header-align-right .main-navigation,
+    .site-header-align-right .header-cart {
+        float: none;
+    }
+    .header-top-bar-right ul li a {
+        padding: 0 10px;
+    }
+    .header-bar > .site-container {
+        padding: 0;
+    }
+    .site-branding {
+        float: none !important;
+        width: 100%;
+        text-align: center !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        padding: 10px 0 20px !important;
+    }
+    .site-title {
+        font-size: 48px !important;
+    }
+    .site-description {
+        font-size: 11px !important;
+    }
+    .site-header-main {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        float: none !important;
+    }
+    .header-meta span {
+        margin: 0 5px;
+    }
+    .search-button {
+        margin: 0;
+        float: none;
+    }
+    .search-block {
+        left: 25px;
+        width: auto;
+    }
+    
+    .header-meta {
+        text-align: center;
+        padding: 2px 0 2px;
+    }
+    .main-navigation {
+        float: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .header-menu-button {
+        padding: 12px 20px 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 560px) {
+    
+    .menu-header-menu-container {
+        display: block;
+        text-align: center;
+    }
+    .header-top-bar-right-ad,
+    .header-top-bar-right-no {
+        display: inline-block;
+    }
+    
+}

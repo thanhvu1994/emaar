@@ -1,0 +1,118 @@
+#sub-accordion-section-title_tagline .description.customize-section-description,
+#sub-accordion-section-festive-panel-website-section-website .description.customize-section-description,
+#sub-accordion-section-festive-panel-website-section-header .description.customize-section-description,
+#sub-accordion-section-festive-panel-website-section-slider .description.customize-section-description,
+#sub-accordion-section-festive-panel-website-section-single-page .description.customize-section-description,
+#sub-accordion-section-festive-panel-website-section-footer .description.customize-section-description {
+    background-color: #e2f1ff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 -12px 0 -10px;
+    padding: 15px 15px 16px;
+    font-size: 12px;
+}
+
+#customize-theme-controls #accordion-panel-festive-panel-website .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-festive-panel-text .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-festive-panel-font-options .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-festive-panel-layout-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-title_tagline .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-festive-section-social .accordion-section-title:hover {
+    background-color: #006CC9;
+    color: #FFF;
+}
+#customize-theme-controls #accordion-panel-festive-panel-website:hover > .accordion-section-title:after,
+#customize-theme-controls #accordion-panel-festive-panel-text:hover > .accordion-section-title:after,
+#customize-theme-controls #accordion-panel-festive-panel-font-options:hover > .accordion-section-title:after,
+#customize-theme-controls #accordion-panel-festive-panel-layout-colors:hover > .accordion-section-title:after,
+#customize-theme-controls #accordion-section-title_tagline:hover > .accordion-section-title:after,
+#customize-theme-controls #accordion-section-colors:hover > .accordion-section-title:after,
+#customize-theme-controls #accordion-section-festive-section-social:hover > .accordion-section-title:after {
+	color: #FFF;
+}
+
+.kaira-upsell {
+    margin-top: 20px;
+    display: none;
+}
+.kaira-upsell b {
+    font-weight: 500;
+    color: #006cc9;
+}
+.kaira-upsell-desc {
+    font-size: 11px;
+    color: rgb(142, 142, 142);
+}
+.festive-upgrade-txt {
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0 0;
+}
+#customize-control-festive-header-layout .description {
+    font-size: 11px;
+    padding: 2px 0 5px;
+}
+#customize-control-festive-header-layout .description b {
+    color: #006CC9;
+}
+
+#customize-control-festive-turn-on-snow,
+#customize-control-festive-remove-round-corners,
+#customize-control-festive-logo-max-width,
+#customize-control-festive-set-logo-padding-bottom,
+#customize-control-custom_logo,
+#customize-control-blogdescription,
+#customize-control-festive-set-topbar-switch,
+#customize-control-festive-remove-nav-shadow,
+#customize-control-festive-remove-search,
+#customize-control-festive-slider-duration,
+#customize-control-festive-page-remove-titlebar,
+#customize-control-festive-blog-widget-title-centeralign,
+#customize-control-festive-blog-widget-title-style,
+#customize-control-festive-set-blog-layout,
+#customize-control-festive-blog-search-leftsidebar,
+#customize-control-festive-blog-search-full-width,
+#customize-control-festive-blog-single-remove-cats,
+#customize-control-festive-single-author-block,
+#customize-control-festive-cart-icon,
+#customize-control-festive-shop-remove-border,
+#customize-control-festive-woocommerce-shop-single-leftsidebar,
+#customize-control-festive-footer-hide-social,
+#customize-control-festive-set-text-header-phone,
+#customize-control-festive-set-text-header-add,
+#customize-control-festive-website-error-msg,
+#customize-control-festive-website-txt-copy,
+#customize-control-festive-website-footer-icon,
+#customize-control-festive-set-text-footer-custom-icon-left,
+#customize-control-background_color,
+#customize-control-festive-boxed-bg-color,
+#customize-control-festive-header-font-color,
+#customize-control-festive-nav-font-color,
+#customize-control-festive-nav-drop-font-color,
+#customize-control-festive-slider-bg-color,
+#customize-control-festive-page-titlebar-fontcolor,
+#customize-control-festive-footer-font-color,
+#customize-control-festive-body-font-color,
+#customize-control-festive-title-font-size,
+#customize-control-festive-tagline-font-size,
+#customize-control-festive-social-tripadvisor {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+	padding: 0 0 20px;
+	margin-bottom: 14px;
+}
+#customize-control-festive-slider-cats,
+#customize-control-festive-slider-style,
+#customize-control-festive-slider-style-spacing,
+#customize-control-festive-slider-size,
+#customize-control-festive-slider-shortcode,
+#customize-control-festive-set-blog-cats,
+#customize-control-festive-article-content-display,
+#customize-control-festive-blog-list-remove-meta,
+#customize-control-festive-footer-customize,
+#customize-control-festive-footer-custom-cols,
+#customize-control-festive-footer-customize-col-1,
+#customize-control-festive-footer-heading-font-color {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 15px 0 0;
+    margin-top: 5px;
+}
